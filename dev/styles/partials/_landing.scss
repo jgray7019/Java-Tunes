@@ -3,7 +3,7 @@
 
 .landing {
 	min-height: 100vh;
-	background: url(../assets/hero.jpeg);
+	background: linear-gradient( rgba(255, 255, 255,0.5), 100%, rgba(0,0,0, 0.0)), url(../assets/hero.jpeg);
 	background-size: cover;
 	text-align: center;
 	@include respond-to ('small') {
